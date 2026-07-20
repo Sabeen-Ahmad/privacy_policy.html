@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Nexora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        h1, h2 {
+            color: #1a1a1a;
+        }
+        p, li {
+            font-size: 15px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #777;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for Nexora</h1>
+        <p><strong>Effective Date:</strong> July 20, 2026</p>
+
+        <p>Welcome to <strong>Nexora</strong> ("we," "our," or "us"). We are committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Nexora when you use our mobile application (Application ID: <code>com.getitlive.nexora</code>).</p>
+
+        <h2>1. Information We Collect</h2>
+        <ul>
+            <li><strong>Account Information:</strong> When you register, we collect your name, email address, and authentication credentials.</li>
+            <li><strong>Usage & Learning Data:</strong> We collect your course progress, roadmap tasks, focus timer stats, streak counts, and assessment performance.</li>
+            <li><strong>App Feedback & Support Messages:</strong> Any feedback, suggestions, or support requests submitted via the App Feedback chat are stored securely in Google Cloud Firestore.</li>
+            <li><strong>Device & Notification Data:</strong> We collect FCM Push Notification tokens to send daily streak reminders and learning updates.</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        <ul>
+            <li>To provide personalized AI learning roadmaps and course recommendations.</li>
+            <li>To track and display your streak and global leaderboard rankings.</li>
+            <li>To respond to your feedback and improve app features.</li>
+            <li>To send push notifications and reminders for active learning goals.</li>
+        </ul>
+
+        <h2>3. Data Storage & Security</h2>
+        <p>We implement appropriate security measures to safeguard your personal data. Authentication tokens are securely stored on your device using secure local storage, and app feedback data is protected by Google Firebase Cloud Firestore security rules.</p>
+
+        <h2>4. Third-Party Services</h2>
+        <p>Our app utilizes third-party services that may collect information used to identify you:</p>
+        <ul>
+            <li><strong>Firebase Authentication & Cloud Firestore</strong> (Google LLC)</li>
+            <li><strong>Firebase Cloud Messaging (FCM)</strong></li>
+        </ul>
+
+        <h2>5. Your Choices & Data Retention</h2>
+        <p>You can update your profile or log out at any time through the Profile section in the app. If you wish to delete your account or stored data, please contact our support team.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
+        <p><strong>Email:</strong> support@getitlive.live</p>
+
+        <div class="footer">
+            &copy; 2026 Nexora Team. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
